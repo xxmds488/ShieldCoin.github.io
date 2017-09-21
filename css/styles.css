@@ -1339,7 +1339,7 @@ label.wa:hover {
 input.wa:checked + label.wa {
   color: #555;
   border: 1px solid #ddd;
-  border-top: 2px solid #333;
+  border-top: 2px solid orange;
   border-bottom: 2px solid white;
 }
 
@@ -1366,19 +1366,16 @@ input.wa:checked + label.wa {
   }
 }
 .dwnld:hover {
-  background:#232731;
+  -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
+box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
+border:none;
     transition: .8s;
-}
-.dwnld:hover .dwnldtxt{
-  color:white !important;
-  transition: .8s;
+
 }
 
   .dwnld{
-  background:#white;border-radius:8px;padding:0px;transition: .8s;
-  -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
+  background:white;border-radius:8px;padding:0px;transition: .8s;border:1px solid #333;
   }
 
   .dwnldtxt{

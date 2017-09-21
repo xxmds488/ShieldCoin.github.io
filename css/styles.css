@@ -1339,7 +1339,7 @@ label.wa:hover {
 input.wa:checked + label.wa {
   color: #555;
   border: 1px solid #ddd;
-  border-top: 2px solid #FF5274;
+  border-top: 2px solid #333;
   border-bottom: 2px solid white;
 }
 
@@ -1366,15 +1366,23 @@ input.wa:checked + label.wa {
   }
 }
 .dwnld:hover {
-  background:#FF5274;
+  background:#232731;
     transition: .8s;
-  }
+}
+.dwnld:hover .dwnldtxt{
+  color:white !important;
+  transition: .8s;
+}
+
   .dwnld{
-  background:#232731;border-radius:8px;padding:0px;transition: .8s;
+  background:#white;border-radius:8px;padding:0px;transition: .8s;
+  -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
+box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
   }
 
   .dwnldtxt{
-  color:white;text-align:center;padding:5px 0;
+  color:#232731;text-align:center;padding:5px 0;
   }
 
 .exchangebox{

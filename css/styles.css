@@ -1375,7 +1375,7 @@ border:none;
 }
 
   .dwnld{
-  background:white;border-radius:8px;padding:0px;transition: .8s;border:1px solid #333;
+  background:white;border-radius:8px;padding:0px;transition: .8s;border:1px solid #333;margin:8px;
   }
 
   .dwnldtxt{

@@ -561,8 +561,8 @@ Features-stack
     margin-top: 20px; }
   .features-extra .macbook-wrap {
     position: absolute;
-    width: 916px;
-    height: 540px;
+    width: 922px;
+    height: 537px;
     background: url("../img/SHIELDwallet.png") no-repeat center center;
     top: 114px;
     z-index: 4;
@@ -1415,7 +1415,7 @@ border:none;
 }
 
   .dwnld{
-  background:white;border-radius:8px;padding:0px;transition: .8s;border:1px solid #333;
+  background:white;border-radius:8px;padding:0px;transition: .8s;border:1px solid #333;margin:8px;
   }
 
   .dwnldtxt{

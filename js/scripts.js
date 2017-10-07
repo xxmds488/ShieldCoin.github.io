@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 	$(function() {
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
@@ -32,12 +32,12 @@ $(document).ready(function() {
 				"-webkit-box-shadow": "none",
 				"-moz-box-shadow": "none",
 				"box-shadow": "none",
-				
+
 		});
 		}
 		});
 	});
-	
+
 	/***************** Waypoints ******************/
 
 	$('.wp1').waypoint(function() {

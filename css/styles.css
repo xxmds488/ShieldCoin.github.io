@@ -338,7 +338,7 @@ Navigation
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 34px;
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
@@ -453,7 +453,7 @@ Intro
 Features-stack
 ========================================================================== */
 .features {
-  position: relative; }
+  position: relative;}
   .features p {
     margin-bottom: 0;
     padding-bottom: 0; }
@@ -512,7 +512,45 @@ Features-stack
 
 .devices {
   position: relative; }
-
+#features{
+  background: #131415;
+}
+.earthimg{
+  width: 90%;left: 200px;height: auto;
+}
+#features .iphone-wrap{
+  bottom:350px;left: 60%;
+}
+#features .responsive-feature-img{
+  width:115%
+  ;top:10px;
+  position:relative;
+}
+.ow{
+  margin-bottom:25px;margin-top:-15px;
+}
+.bs{
+  margin-top:-15px;
+}
+#techinfo .leftcol h3, #techinfo .leftcol  h5{
+  color:white;
+  text-align:left;
+}
+#techinfo .rightcol h3{
+  color:white;
+  text-align:right;
+}
+#techinfo .rightcol h5{
+  color:lightblue;
+  text-align:right;
+}
+.shlogogum{
+  width:24px;
+  height:24px;
+}
+.bi{
+  display:inline-block;
+}
 /* ==========================================================================
 .features-extra
 ========================================================================== */
@@ -529,7 +567,9 @@ Features-stack
     top: 114px;
     z-index: 4;
     left: 50%; }
-
+.feature-list p, .feature-list h5, .feature-list h3{
+  color:white;
+}
 /* ==========================================================================
 .hero-strip
 ========================================================================== */
@@ -1524,4 +1564,19 @@ padding-right:10px;
 }
 .smallnavo:hover {
   border-bottom:2px solid #FF5274;
+}
+.timeline-contentrm{
+  position:relative;
+}
+.stcp::after{
+  content: "";
+width:50%;
+position:absolute;
+left:4%;
+bottom:40px;
+-webkit-transform:translateX(-6px);
+transform:translateX(-6px);
+-ms-transform:translateX(-6px);
+-o-transform:translateX(-6px);
+    border-bottom:1px solid #c1e94f;
 }

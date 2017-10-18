@@ -1571,15 +1571,38 @@ padding-right:10px;
 .timeline-contentrm{
   position:relative;
 }
-.stcp::after{
+.prf::after{
   content: "";
-width:50%;
+width:100%;
 position:absolute;
-left:4%;
-bottom:40px;
+bottom:0px;
+left:1%;
 -webkit-transform:translateX(-6px);
 transform:translateX(-6px);
 -ms-transform:translateX(-6px);
 -o-transform:translateX(-6px);
     border-bottom:1px solid #c1e94f;
+}
+.prf, .prnf{
+  position:relative;
+}
+.prnf::after{
+  content: "";
+width:100%;
+left:1%;
+position:absolute;
+bottom:0px;
+-webkit-transform:translateX(-6px);
+transform:translateX(-6px);
+-ms-transform:translateX(-6px);
+-o-transform:translateX(-6px);
+    border-bottom:1px solid #e9774f;
+}
+.fl{float:left}
+.fr{float:right}
+@media screen and (max-width:768px){
+  .fl{float:right}
+}
+.fl, .fr{
+  font-size: 12px;
 }

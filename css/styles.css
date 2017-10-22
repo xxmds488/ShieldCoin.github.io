@@ -371,7 +371,7 @@ Hero
   width: 100%;
   z-index: 999; }
 
-.fixed {
+.fixed, .fixed2{
   position: fixed;
   background-color: #232731;
   z-index: 999;

@@ -37,7 +37,8 @@ h5 {
   border: solid 2px;
   border-radius: 40px;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  }
 
 .btn:hover, .btn:focus {
   color: #fff;
@@ -49,7 +50,7 @@ h5 {
   border: solid 2px;
   border-radius: 40px;
   display: inline-block;
-  border-color: #fff; }
+  border-color: #d0d0d0; }
 
 .btn-white:hover, .btn-white:focus {
   color: #e2a43f;
@@ -65,8 +66,8 @@ h5 {
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #D7405D;
-  border-color: #D7405D; }
+  background-color: #d5a14c;
+  border-color: #d0d0d0; }
 
 .btn-small {
   padding: 8px 40px; }
@@ -347,8 +348,8 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
-  background: url("../img/SHIELDmbg.jpg") center center;
+  height: 750px;
+  background: url("../img/SHIELDmbg2.png") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -373,7 +374,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #232731;
+  background-color: #121212;
   z-index: 999;
   width: 100%; }
 

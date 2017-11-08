@@ -43,7 +43,9 @@ h5 {
 .btn:hover, .btn:focus {
   color: #fff;
   border-color: #e2a43f;
-  background-color: #e2a43f; }
+  background-color: #e2a43f;
+  transition:.6s;
+ }
 
 .btn-white {
   font-size: 13px;
@@ -1205,7 +1207,7 @@ you can use the generic selector below, but it's slower:
   content: "\e063"; }
 
  .containerrm {
-   width: 80%;
+   width: 100%;
    padding: 50px 0;
    margin: 50px auto;
    position: relative;
@@ -1288,21 +1290,10 @@ you can use the generic selector below, but it's slower:
 
 
 @media screen and (max-width: 768px) {
-   .containerrm:before {
-      left: 8px;
-      width: 2px;
-   }
    .timeline-blockrm {
-      width: 100%;
       margin-bottom: 30px;
-   }
-   .timeline-block-rightrm {
-      float: none;
-   }
-
-   .timeline-block-leftrm {
-      float: none;
-      direction: ltr;
+      margin-left: calc(16px - 1vh);
+      width:100%;
    }
 }
 
@@ -1738,9 +1729,21 @@ p.fu{
 }
 @media screen and (min-width:768px){
   .col-ssm{
-  width: calc(50% - 16px);
-}
+  width: calc(40% - 16px);
+}}
 @media screen and (min-width:992px){
   .col-smd{
-  width: calc(33.33333333% - 16px);
+  width: calc(20% - 16px);
+}
+}
+.rmfb{
+  position:relative;
+}
+.rmfb::before{
+  content: "";
+  width:100%;
+  position:absolute;
+  bottom:-1px;
+  top:-2px;
+  border-bottom:2px solid gray;
 }

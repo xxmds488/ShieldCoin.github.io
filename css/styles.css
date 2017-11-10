@@ -824,7 +824,6 @@ footer {
   footer a:hover {
     color: #e2a43f; }
   footer ul.footer-group {
-    border-top: solid 1px #4E566C;
     padding-top: 25px;
     margin-bottom: 45px; }
   footer ul.footer-group li {
@@ -881,7 +880,9 @@ footer {
     footer .social-share a i {
       margin-top: 20px; }
   footer .footer-links {
-    margin: 120px 0 120px 0; }
+    margin: 50px 0 10px 0;
+    text-align:center;
+   }
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
@@ -1762,4 +1763,15 @@ p.fu{
   bottom:-1px;
   top:-2px;
   border-bottom:2px solid gray;
+}
+.CUH{
+  font-size: 70px;
+  font-weight:100;
+  padding-left:0px;
+}
+.CUT{
+  padding-left:40px;
+}
+.CUTT{
+  margin-right:10px;
 }

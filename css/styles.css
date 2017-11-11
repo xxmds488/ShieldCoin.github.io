@@ -422,6 +422,7 @@ header {
         color: #fff;
         padding-right: 25px;
         position: relative;
+        font-weight: 700;
        }
         header ul.primary-nav li a:hover {
           color: #e2a43f; }
@@ -1737,7 +1738,6 @@ p.fu{
   display:block;
 }
 .exchangeboxbox{
-  background:rgba(255, 255, 255, 0.90);
   padding:10px 30px;
 }
 .ngg{
@@ -1813,4 +1813,8 @@ top:100%;
   transition:.8s;
   width:180px;
   margin-top: 100px;
+}
+.subheadab{
+  color:black;
+  line-height:25px;
 }

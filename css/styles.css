@@ -1768,14 +1768,49 @@ p.fu{
   font-size: 70px;
   font-weight:100;
   padding-left:0px;
+
 }
 .CUT{
-  padding-left:40px;
+  text-align:center;
+  padding: 40px 0px;
+}
+.CUT::after{
+  content: "";
+width: 80%;
+border-bottom: 1px solid gray;
+position: absolute;
+padding: 0;
+left: 10%;
+top:100%;
 }
 .CUTT{
   margin-right:10px;
 }
-
+.mib.b{display:none;}
 .Contactusbody {
   background: linear-gradient(180deg,#c9d6ff,#dee6ff)
+}
+@media screen and (max-width: 991px){
+  .cuimg{
+    display:none;
+  }
+  .mib.b{
+    display:inline-block;
+  }
+}
+.cuiimg:hover
+{
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    -o-transform: scale(.75);
+    -ms-transform: scale(.75);
+    transform: scale(.75);
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
+    border-radius:100%;
+
+  }
+.cuiimg{
+  transition:.8s;
+  width:180px;
+  margin-top: 100px;
 }

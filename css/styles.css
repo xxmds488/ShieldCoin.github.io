@@ -170,112 +170,11 @@ ul li {
   text-transform: capitalize;
   background-color: #000;
   border-radius: 4px; }
-
-/* ==========================================================================
-Animations
-========================================================================== */
-.pulse2 {
-  -webkit-animation-name: pulse2;
-          animation-name: pulse2;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear; }
-
-@-webkit-keyframes pulse2 {
-  0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
-  50% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-@keyframes pulse2 {
-  0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1); }
-  50% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-.floating-arrow {
-  -webkit-animation-name: floating-arrow;
-          animation-name: floating-arrow;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out; }
-
-@-webkit-keyframes floating-arrow {
-  from {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
-  65% {
-    -webkit-transform: translate(-50%, 15px);
-            transform: translate(-50%, 15px); }
-  to {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
-
-@keyframes floating-arrow {
-  from {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
-  65% {
-    -webkit-transform: translate(-50%, 15px);
-            transform: translate(-50%, 15px); }
-  to {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
-.floating-logo {
-  -webkit-animation-name: floating-logo;
-          animation-name: floating-logo;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out; }
-
-@-webkit-keyframes floating-logo {
-  from {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
-  50% {
-    -webkit-transform: translate(-50%, 10px);
-            transform: translate(-50%, 10px); }
-  to {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
-
-@keyframes floating-logo {
-  from {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); }
-  50% {
-    -webkit-transform: translate(-50%, 10px);
-            transform: translate(-50%, 10px); }
-  to {
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
 /* ==========================================================================
 Waypoinsts
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9, .vishid {
   visibility: hidden; }
-
-.wp2 {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s; }
 
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .bounceInDown {
   visibility: visible; }
@@ -393,7 +292,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #121212;
+  background-color: #1f1f1f;
   z-index: 999;
   width: 100%; }
 
@@ -403,12 +302,12 @@ header {
   position: relative;
   width: 1170px;
   margin: 0 auto;
-  -webkit-transition: padding 300ms ease-in-out;
-          transition: padding 300ms ease-in-out; }
+  transition: .4s;
+}
   header a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 13px; }
+    font-size: .8vw; }
     header a.login {
       margin-right: 20px; }
   header .logo {
@@ -422,7 +321,7 @@ header {
         color: #fff;
         padding-right: 25px;
         position: relative;
-        font-weight: 700;
+        font-weight: 500;
        }
         header ul.primary-nav li a:hover {
           color: #e2a43f; }
@@ -1317,11 +1216,11 @@ you can use the generic selector below, but it's slower:
 }
 
 .buncomplete{
-border:2px solid #e9774f;border-radius:16px;background:#232731;
+border:2px solid #e9774f;border-radius:16px;background:#1f1f1f;
 }
 
 .bcomplete{
-border:2px solid #c1e94f;border-radius:16px;background:#232731;
+border:2px solid #c1e94f;border-radius:16px;background:#1f1f1f;
 }
 
 .time{
@@ -1335,11 +1234,6 @@ border:2px solid #c1e94f;border-radius:16px;background:#232731;
 background: rgba(239, 239, 239, 0.75);
 }
 
-
-.wallets{background: url("../img/SHIELDwalletbg.jpg")  fixed; width: 100%; height: 100%;}
-
-.exchanges{background: url("../img/SHIELDexchangebg.png") fixed; width: 100%; height: 80%;}
-
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -1352,7 +1246,7 @@ main {
   min-width: 320px;
   max-width: 800px;
   padding: 25px 55px;
-  margin: 0 auto;
+  margin: auto auto;
   background: rgba(255, 255, 255, 1);
 }
 
@@ -1360,6 +1254,7 @@ section.wa {
   display: none;
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
+  min-height:180px;
 }
 
 input.wa {
@@ -1421,45 +1316,38 @@ input.wa:checked + label.wa {
     padding: 15px;
   }
 }
-.dwnld:hover {
-  -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.75);
-border:none;
-    transition: .8s;
 
-}
 
-  .dwnld{
-  background:white;border-radius:8px;transition: .8s;border:1px solid #333;margin:8px;
-  }
 
   .dwnldtxt{
-  color:#232731;text-align:center;padding:5px 0;
+  color:#1f1f1f;text-align:center;padding:5px 0;margin-bottom:0px;margin-top:0px;font-weight:600;transition:0.8s;
   }
-
-.exchangebox{
+h6.dwnldtxt{
+  font-size:16px;
+}
+.exchangebox, .dwnld{
 margin:15px 6px;background:#f9f9f9;border-radius:2px;;padding-top:5px;
 box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.3);
 transition: 0.8;
 display:inline-block;
+text-align:center;
+transition:0.8s;
 }
 
-.exchangebox:hover{
-background:#232731;
+.exchangebox:hover, .dwnld:hover{
+background:#1f1f1f;
 box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
-transition: 0.8s;
 border-radius:4px;
 }
 
-.exchangebox:hover .exchangename{
+.exchangebox:hover .exchangename,.dwnld:hover .dwnldtxt{
 color:white;
-transition: 0.8s;
 }
 .exchangename{
 text-align:center;
 padding-bottom:8px;
-color:#232731;
+color:#1f1f1f;
+transition:0.8s;
 }
 
 .techspecs{
@@ -1467,7 +1355,6 @@ color:white;
 text-align; left;
 font-size:15px;
 text-transform: uppercase;
-font:weight: 500;
 }
 
 .techspecshead{
@@ -1484,7 +1371,9 @@ border:none !important;
 padding-bottom:0px !important;
 color:white !important;
 }
-
+.dwnld{
+  border-radius:8px;
+}
 .twitter1:before { content: '\f081'; }
 .reddit1:before {content: '\f1a2';}
 .github1:before { content: '\f092';}
@@ -1642,7 +1531,7 @@ height:75px;
 opacity: .5;
 }
 .topic{
-  padding-bottom:16px;
+  padding: 16px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     background-color:white;
 }
@@ -1714,7 +1603,7 @@ header ul.primary-nav li a::after{
   width:0px;
   position:absolute;
   left:7%;
-  bottom:-5px;
+  bottom:-2px;
   -webkit-transform:translateX(-6px);
   transform:translateX(-6px);
   -ms-transform:translateX(-6px);
@@ -1744,6 +1633,7 @@ p.fu{
 .ngg{
   background-color:white;
   padding: 10px 30px;
+  text-align: center;
 }
 @media screen and (min-width:768px){
   .col-ssm{
@@ -1826,14 +1716,138 @@ top:100%;
 .exchangeboxbox .exchangebox{
   float:none;
 }
-.exboxd::after{
+.wa.b,.bman{
+  height:100%;
+}
+.exboxd::after, .bman::after{
   content: "";
 width: 80%;
 border-bottom: 1px solid gray;
 margin:20px 0px 20px 10%;
 display:block;
 }
+.dwnld{
+  float:none;
+}
 .eximg{
   max-width:100%;
   height:60px;
+}
+div > h3 > a{
+  display:block;
+  width:30%;
+  margin:auto;
+}
+.sevenfive{
+  width: 85%;
+  float: left;
+  transition:.8s;
+}
+#COMPS div{
+  padding:0px;
+
+}
+.sevenfive span{
+  padding: 2px 24px;
+  width:100%;
+  float: left;
+  font-size:24px;
+  transition:.8s;
+}
+ div.compprizediv{
+  text-align:center;
+  width: 15%;
+  float: left;
+  height:80%;
+  transition:.8s;
+}
+.outer-div{
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 17px;
+  -webkit-border-radius: 17px;
+ -moz-border-radius: 17px;
+  margin-top: 32px;
+  float: left;
+  background: #1f1f1f;
+  /*-webkit-box-shadow: -8px 12px 5px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -8px 12px 5px -5px rgba(0,0,0,0.75);
+  box-shadow: -8px 12px 5px -5px rgba(0,0,0,0.75);*/
+  -webkit-box-shadow: -8px 10px 5px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -8px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: -8px 10px 5px -6px rgba(0,0,0,0.75);
+  color: white;
+  transition: .8s;
+  margin-bottom: 32px;
+  -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      font-weight: 400;
+}
+.timecomp{
+  width:100%;
+  text-align:center;
+  float:left;
+  background: #f1f1f1;
+  border-radius: 0px 0px 8px 8px;
+  color:black;
+}
+.heyyy{
+  padding: 140px 0;
+}
+.sevenfivet{
+  float: left;
+  background: white;
+  width: 100%;
+  margin: 0;
+  padding: 9px 10px;
+  white-space: pre-line;
+  border-top-right-radius: 8px;
+  /*-webkit-box-shadow: inset -7px 7px 5px -4px rgba(226,164,63,1);
+  -moz-box-shadow: inset -7px 7px 5px -4px rgba(226,164,63,1);
+  box-shadow: inset -7px 7px 5px -4px rgba(226,164,63,1);*/
+  -webkit-box-shadow: inset -7px 7px 10px -5px rgba(226,164,63,1);
+  -moz-box-shadow: inset -7px 7px 10px -5px rgba(226,164,63,1);
+  box-shadow: inset -7px 7px 10px -5px rgba(226,164,63,1);
+  line-height: 17px;
+  font-weight: 400;
+  min-height: 150px;
+}
+.logo a img{
+  transition: .8s;
+}
+.compprizediv ol{
+  padding-left: 16px;
+}
+@media screen and (max-width:844px){
+  .outer-div{
+    width:80%;
+    margin-left:10%;
+  }
+}
+@media screen and (max-width:490px){
+  .outer-div{
+    width:85%;
+    margin-left: 7.5%;
+  }
+  .sevenfive{
+    width:75%;
+  }
+  .sevenfivet{
+    padding-left:16px;
+  }
+   div.compprizediv{
+    width:25%;
+  }
+}
+.right{
+  display: block;
+}
+.right::before{
+  content: "-";
+}
+@media screen and (max-width:419px){
+  div > h3 > a {
+    width: 50%;
 }

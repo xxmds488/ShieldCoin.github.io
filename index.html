@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>SHIELD</title>
+    <title id="title"></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -42,7 +42,7 @@
 	<![endif]-->
     <section class="hero">
         <section class="navigation">
-            <header style="border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 35px 0px;">
+            <header style="border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 30px 0px">
                 <div class="header-content">
                     <div class="logo">
                         <a href="#">
@@ -51,16 +51,8 @@
                     </div>
                     <div class="header-nav">
                         <nav>
-                            <ul class="primary-nav">
-                                <li><a href="/Roadmap">Roadmap</a></li>
-                                <li><a href="/Wallets">Wallets</a></li>
-                                <li><a href="/Exchanges">Exchanges</a></li>
-                                <li><a href="/About">About</a></li>
-                                <li><a href="/Whitepaper">Whitepaper</a></li>
-                                <li><a href="/Projects">Projects</a></li>
-                                <li><a href="/Contactus">Contact Us</a></li>
-                                <li><a href="/Moreinformation">More Information</a></li>
-                            </ul>
+                          <ul class="primary-nav" id="primary-nav">
+                          </ul>
                         </nav>
                     </div>
                     <div class="navicon">
@@ -113,7 +105,7 @@
                     </div>
                     <div class="intro-content last">
                         <h5>SHIELD Is Future proof</h5>
-                        <p>Almost all currenies have a problem with getting future proof. Even Fiats like Euro and the Dollar have an insane inflation rate. SHIELD solves these problems with its upcoming PoS system.</p>
+                        <p>Almost all currencies have a problem with getting future proof. Even Fiats like Euro and the Dollar have an insane inflation rate. SHIELD solves these problems with its upcoming PoS system.</p>
                     </div>
                 </div>
             </div>
@@ -144,7 +136,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Multi-Algo</h5>
-                                    <p>SHIELD is a Multi-Algo coin which is great to prevent 51% attacks and makes mining SHIELD easier for everyone.</p>
+                                    <p>SHIELD is multi-algo coin which is great to prevent 51% attacks and makes mining SHIELD easier for everyone.</p>
                                 </div>
                             </li>
                             <li class="feature-item vishid fc3">
@@ -152,8 +144,8 @@
                                     <span data-icon="&#xe039;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>Intergration Everywhere</h5>
-                                    <p>SHIELD will be intergrated on almost every popular social-media platform. This makes giving SHIELD to your family and friends easier than ever.</p>
+                                    <h5>Integration Everywhere</h5>
+                                    <p>SHIELD will be integrated on almost every popular social-media platform. This makes giving SHIELD to your family and friends easier than ever.</p>
                                 </div>
                             </li>
                         </ul>
@@ -174,11 +166,11 @@
             <div class="row">
                 <div class="col-md-5">
                         <h2>Want to get started with SHIELD?</h2>
-                        <p>Getting started with SHIELD is really easy, you'll just have to download one of the SHIELD wallets and transfer your SHIELDs to the wallet.</p>
+                        <p>Getting started with SHIELD is really easy, you'll just have to download one of the SHIELD wallets and transfer your SHIELD to the wallet.</p>
                         <a href="/Wallets" class="btn btn-ghost btn-accent btn-small ow">Our Wallets</a>
                         <br>
                         <h4>Don't have any SHIELD yet?</h4>
-                        <p>Well that's no problem. Just go to one of the exchanges we're listed on and buy your first SHIELDs. </p>
+                        <p>Well that's no problem. Just go to one of the exchanges we're listed at and buy your first SHIELD. </p>
                         <a href="/Exchanges" class="btn btn-ghost btn-accent btn-small bs">Buy SHIELD on any of these platforms</a>
                 </div>
             </div>
@@ -225,15 +217,20 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h3>SHIELD isn't premined. The only funds the SHIELD team gets are from donations. So if you're interested in the SHIELD project and want to help us you can donate to one of the following addresses.</h3>
-                    <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
 						<h4 style="font-size: 15px;"><b>Ƀ Bitcoin Wallet Address:</b></h4>
-						<h5 style="text-transform: none;"><a href="https://blockchain.info/address/15SXteL3g1rZdd6u7XbwQKRctQ1jZ44C7E">1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL</a></h5>
+						<h5 style="text-transform: none;"><a href="https://blockchain.info/address/1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL">1APmQQY3Vyo9sYz3JGPbntyfyMffdVQ9cL</a></h5>
 					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+					<div class="col-md-6 col-sm-12 col-xs-12">
 						<img src="img/SHIELDsmall.png" style="width:24px;height:24px" alt="SHIELD logo"><h4 style="display:inline">SHIELD Wallet Address</h4>
 						<h5 style="text-transform: none;"><a href="http://188.226.178.216:3001/address/STKcaQS8MVBs1C457k89pCvverLvH58a1w">STKcaQS8MVBs1C457k89pCvverLvH58a1w</a></h5>
 					</div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+						<h4 style="display:inline">Ethereum Wallet Address</h4>
+						<h5 style="text-transform: none;"><a href="https://etherscan.io/address/0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac">0x124a98224fd8d6d4d7b6d53459dc08a4142cc3ac</a></h5>
+					</div>
 			   </div>
+
             </div>
         </div>
     </section>
@@ -249,12 +246,12 @@
                                 <i class="fa fa-twitter fa-stack-1x"></i>
                               </span>
                             </a>
-                          <!--<div>
-                            <a href="http://google.com">
-                              <span class="reddit1"></span>
-                              <p class="icontext">Reddit</p>
+                            <a href="https://www.reddit.com/r/SHIELDCOIN/">
+                              <span class="fa-stack fa-lg fa-2x">
+                                <i class="fa fa-circle-o fa-stack-2x"></i>
+                                <i class="fa fa-reddit fa-stack-1x"></i>
+                              </span>
                             </a>
-                          </div>-->
                             <a href="https://github.com/ShieldCoin">
                               <span class="fa-stack fa-lg fa-2x">
                                 <i class="fa fa-circle-o fa-stack-2x"></i>
@@ -287,6 +284,7 @@
                 </div>
             </div>
         </footer>
+        <script src="/js/script.js"></script>
     <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="bower_components/retina.js/dist/retina.js"></script>

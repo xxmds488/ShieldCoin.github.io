@@ -1,0 +1,183 @@
+{
+    "exchanges": [
+        {
+            "Name": "Stocks.exchange",
+            "linkto":"https://stocks.exchange/trade/XSH/BTC",
+            "logo_path": "../img/stocksexxchangelogo.png",
+            "status": "listed"
+        },
+        {
+          "Name": "Tradesatoshi",
+          "linkto":"https://tradesatoshi.com/Exchange?market=XSH_BTC",
+          "logo_path": "../img/tslogo.png",
+          "status": "listed"
+        },
+        {
+          "Name": "Coinsmarkets",
+          "linkto":"https://coinsmarkets.com/trade-BTC-XSH.htm",
+          "logo_path": "../img/coinsmarketsl.png",
+          "status": "listed"
+        },
+      {
+          "Name": "CoinGather",
+          "linkto":"https://www.coingather.com/vote/",
+          "logo_path": "../img/coingather-logo.png",
+          "status": "voting"
+      },
+      {
+        "Name": "C-cex",
+        "linkto":"https://c-cex.com/?id=votev",
+        "logo_path": "../img/ccexchange.png",
+        "status": "voting"
+      }
+    ],
+    "wallets": [
+      {
+        "Name": "SHIELD Electrum Windows Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.1/Electrum-Windows-2.4.2.zip",
+        "type": "Download",
+        "platform": "windows"
+      },
+      {
+        "Name": "SHIELD Windows commandline Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.2-WINd/SHIELDd.exe",
+        "type": "Download",
+        "platform": "windows"
+      },
+      {
+        "Name": "SHIELD QT Windows Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0wqt/SHIELD-qt.exe",
+        "type": "Download",
+        "platform": "windows"
+      },
+      {
+        "Name": "SHIELD Electrum Linux Wallet",
+        "link":"https://github.com/ShieldCoin/electrum-XSH",
+        "type": "Go to",
+        "platform": "linux"
+      },
+      {
+        "Name": "SHIELD Android Wallet",
+        "link":"https://github.com/ShieldCoin/SHIELD/releases/download/v1.0-Android/SHIELD-android.apk",
+        "type": "Download",
+        "platform": "android"
+      }
+    ],
+    "miningpools": [
+          {
+            "Name": "XSH uMine pool",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "http://xsh.umine.org/"
+          },
+          {
+          "Name": "uMine",
+          "Algos": ["myr-gr"],
+          "link": "https://umine.org/site/mining"
+          },
+          {
+            "Name": "Bigmine",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "https://bigmine.org/"
+          },
+          {
+            "Name": "Bilbotel",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "https://www.bilbotel.fr/"
+          },
+          {
+            "Name": "Mining-Dutch",
+            "Algos": ["scrypt"],
+            "link": "https://www.mining-dutch.nl/"
+          },
+          {
+            "Name": "TheBSODPool",
+            "Algos": ["x17"],
+            "link": "https://bsod.pw/"
+          },
+          {
+            "Name": "N-Engine",
+            "Algos": ["x17"],
+            "link": "http://pool.n-engine.com/"
+          },
+          {
+            "Name": "Antminepool",
+            "Algos": ["myr-gr", "x17", "blake2s", "lyra2v2", "scrypt"],
+            "link": "http://antminepool.com/"
+          },
+        {
+          "Name": "NOMP",
+          "Algos": ["scrypt"],
+          "link": "http://109.235.67.6"
+        }
+        ],
+        "coinlists": [
+          {
+            "Name": "Coinranking",
+            "Link": "https://coinranking.com/coin/shield-xsh"
+          },
+          {
+            "Name": "Bitscreener",
+            "Link": "https://bitscreener.com/coins/shield-coin"
+          },
+          {
+            "Name": "99Cryptocoin",
+            "Link": "https://www.99cryptocoin.com/coin/shield-xsh"
+          },
+          {
+            "Name": "Coinmarketcap",
+            "Link": "https://coinmarketcap.com/currencies/shield-xsh/#charts"
+          },
+          {
+            "Name": "Coindar",
+            "Link": "https://coindar.org/coins/"
+          }
+        ],
+        "pages": [
+          {
+            "Name": ""
+          },
+          {
+            "Name": "Roadmap"
+          },
+          {
+            "Name": "Wallets"
+          },
+          {
+            "Name": "Exchanges"
+          },
+          {
+            "Name": "About"
+          },
+
+          {
+            "Name": "Projects"
+          },
+          {
+            "Name": "Contact us"
+          },
+          {
+            "Name": "More information"
+          },
+          {
+            "Name": "Competitions"
+          }
+        ],
+        "Competition": [
+          {
+            "Name": "Reddit style competition",
+            "Description": "We recently got a Reddit page. But at this moment it looks really bad and making a Reddit page look good takes an huge amount of time. That's why we ask the SHIELD community to help us make our reddit look good of course you can win SHIELD if your design gets used.",
+            "Startdate": "2017-11-18",
+            "Enddate": "2017-11-25",
+            "Prizes": ["50000", "15000", "7500"],
+            "Link": "https://www.reddit.com/r/SHIELDCOIN/comments/7duthu/reddit_competition/"
+          },
+          {
+            "Name": "<Secret>",
+            "Description": "<Coming soon>",
+            "Startdate": "2017-11-25",
+            "Enddate": "2017-12-2",
+            "Prizes": ["30000", "10000", "5000"],
+            "Link": "https://duckduckgo.com/?q=Image&t=ffab&ia=web"
+          }
+        ]
+      }

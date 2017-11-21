@@ -112,7 +112,7 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
   }
   function exchanges() {
     information.forEach(function(element){
-      if (element.status.includes("listed")){
+      
         var exchange = document.createElement("a");
         exchange.classList.add("col-md-2","col-sm-5","col-xs-12","exchangebox");
         exchange.href=element.linkto;
@@ -125,24 +125,15 @@ div.insertBefore(coinlists, wichalgo.nextSibling);
         var exchangename = document.createTextNode(element.Name);
         exchangenametype.appendChild(exchangename);
         exchange.appendChild(exchangenametype);
+        
+       
+      if (element.status.includes("listed")){
         var div = document.getElementById("exchanges");
-        div.appendChild(exchange);
       }
     else if (element.status.includes("voting")){
-      var exchange = document.createElement("a");
-      exchange.classList.add("col-md-2","col-sm-5","col-xs-12","exchangebox");
-      exchange.href=element.linkto;
-      var exchangeimg = document.createElement("img");
-      exchangeimg.classList.add("eximg");
-      exchangeimg.src=element.logo_path;
-      exchange.appendChild(exchangeimg);
-      var exchangenametype = document.createElement("h4");
-      exchangenametype.classList.add("exchangename");
-      var exchangename = document.createTextNode(element.Name);
-      exchangenametype.appendChild(exchangename);
-      exchange.appendChild(exchangenametype);
       var div = document.getElementById("vexchanges");
-      div.appendChild(exchange);
+    }
+       div.appendChild(exchange);
     }
   });
   }
